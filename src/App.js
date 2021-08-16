@@ -6,15 +6,19 @@ import DemoIf from "./components/CauTrucDieuKhien_Rerender/DemoIf";
 import BaiTapState from "./components/CauTrucDieuKhien_Rerender/BaiTapState";
 import DemoVongLap from "./components/CauTrucLap/DemoVongLap";
 import BaiTapVongLap from "./components/BaiTap2/BaiTapVongLap";
+import DemoProps from "./components/Props/DemoProps";
 function App() {
   return (
-    //  <BaiTapComponent />
-    // <SinhVien />
-    // <Event />
-    // <DemoIf />
-    // <BaiTapState />
-    // <DemoVongLap />
-    <BaiTapVongLap />
+    <>
+    {/* <BaiTapComponent />
+    <SinhVien />
+    <Event />
+    <DemoIf />
+    <BaiTapState />
+    <DemoVongLap />
+    <BaiTapVongLap /> */}
+    <DemoProps />
+    </>
   );
 }
 
