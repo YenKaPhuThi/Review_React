@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sp_1",
+    "img": "./img/sp_iphoneX.png",
+    "title": "iPhone X",
+    "desc": "iPhone X features a new all-screen design. Fac ID, which makes your face your password"
+  },
+  {
+    "id": "sp_2",
+    "img": "./img/sp_note7.png",
+    "title": "Galaxy Note7",
+    "desc": "The Galaxy Note7 comes with a perfectly symmetrical design for good reason"
+  },
+  {
+    "id": "sp_3",
+    "img": "./img/sp_vivo850.png",
+    "title": "Vivo",
+    "desc": "A young global smartphone brand focusing on introducing perfect sound quality"
+  },
+  {
+    "id": "sp_4",
+    "img": "./img/sp_blackberry.png",
+    "title": "Blackberry",
+    "desc": "BlackBerry is a line of smartphones, tablets, and services originally designed"
+  },
+  {
+    "id": "lt_1",
+    "img": "./img/lt_macbook.png",
+    "title": "MACBOOK",
+    "desc": "The MacBook is a brand of notebook computers manufactured by Apple Inc"
+  },
+  {
+    "id": "lt_2",
+    "img": "./img/lt_rog.png",
+    "title": "ASUS ROG",
+    "desc": "the Asus ROG Strix Flare is the latest addition to Asus' lineup of ROG branded devices"
+  },
+  {
+    "id": "lt_3",
+    "img": "./img/lt_hp.png",
+    "title": "HP OMEN",
+    "desc": "A young global smartphone brand focusing on introducing perfect sound quality"
+  },
+  {
+    "id": "lt_4",
+    "img": "./img/lt_lenovo.png",
+    "title": "LENOVO THINKPAD",
+    "desc": "The ThinkPad X1 Carbon is a high-end notebook computer released by Lenovo in 2012"
+  }
+]

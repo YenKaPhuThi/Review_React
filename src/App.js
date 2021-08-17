@@ -10,14 +10,14 @@ import DemoProps from "./components/Props/DemoProps";
 function App() {
   return (
     <>
-    {/* <BaiTapComponent />
-    <SinhVien />
-    <Event />
-    <DemoIf />
-    <BaiTapState />
-    <DemoVongLap />
-    <BaiTapVongLap /> */}
-    <DemoProps />
+    <BaiTapComponent />
+    {/* <SinhVien /> */}
+    {/* <Event /> */}
+    {/* <DemoIf /> */}
+    {/* <BaiTapState /> */}
+    {/* <DemoVongLap /> */}
+    {/* <BaiTapVongLap /> */}
+    {/* <DemoProps /> */}
     </>
   );
 }
