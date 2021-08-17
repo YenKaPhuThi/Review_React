@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class Product extends Component {
   render() {
-    const { sanPham } = this.props;
+    const { sanPham, xemChiTiet } = this.props;
 
     return (
       <div className="container">
@@ -16,7 +16,13 @@ export default class Product extends Component {
           <div className="card-body text-center">
             <h4 className="card-title text-center">{sanPham.title}</h4>
             <p className="card-text">{sanPham.desc}</p>
-            <a href="#" className="btn btn-primary">
+            <a
+              href="#"
+              className="btn btn-primary"
+              onClick={() => xemChiTiet(sanPham)}
+              data-toggle="modal"
+              data-target="#modelId"
+            >
               Detail
             </a>
             <a href="#" className="btn btn-danger">

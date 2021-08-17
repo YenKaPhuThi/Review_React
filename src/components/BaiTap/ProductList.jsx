@@ -4,11 +4,11 @@ import Product from "./Product";
 export default class ProductList extends Component {
   renderProduct = () => {
     // Lấy giá trị mảng sản phẩm từ component chia truyền vào thông qua thuộc tính this.props
-    let { mangSanPham } = this.props;
+    let { mangSanPham, xemChiTiet } = this.props;
     return mangSanPham.map((sp, index) => {
       return (
         <div key={index} className="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3 mt-2">
-          <Product sanPham={sp} />
+          <Product sanPham={sp} xemChiTiet={xemChiTiet} />
         </div>
       );
     });
