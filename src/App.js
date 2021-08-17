@@ -11,7 +11,7 @@ import BaiTapTruyenFunction from "./components/BaiTapTruyenFunction/BaiTapTruyen
 function App() {
   return (
     <>
-    <BaiTapComponent />
+    {/* <BaiTapComponent /> */}
     {/* <SinhVien /> */}
     {/* <Event /> */}
     {/* <DemoIf /> */}
@@ -19,7 +19,7 @@ function App() {
     {/* <DemoVongLap /> */}
     {/* <BaiTapVongLap /> */}
     {/* <DemoProps /> */}
-    {/* <BaiTapTruyenFunction /> */}
+    <BaiTapTruyenFunction />
     </>
   );
 }
