@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import phoneData from "../../data/phoneData.json";
+import phoneData from "../../../data/phoneData.json";
 import SanPham from "./SanPham";
 
 export default class DanhSachSanPham extends Component {

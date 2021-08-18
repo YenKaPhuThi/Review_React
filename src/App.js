@@ -7,7 +7,8 @@ import BaiTapState from "./components/CauTrucDieuKhien_Rerender/BaiTapState";
 import DemoVongLap from "./components/CauTrucLap/DemoVongLap";
 import BaiTapVongLap from "./components/BaiTap2/BaiTapVongLap";
 import DemoProps from "./components/Props/DemoProps";
-import BaiTapTruyenFunction from "./components/BaiTapTruyenFunction/BaiTapTruyenFunction";
+import BaiTapTruyenFunction from "./components/Props/BaiTapTruyenFunction/BaiTapTruyenFunction";
+import BaiTapGioHang from "./components/Props/BaiTapGioHang/BaiTapGioHang";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
     {/* <DemoVongLap /> */}
     {/* <BaiTapVongLap /> */}
     {/* <DemoProps /> */}
-    <BaiTapTruyenFunction />
+    {/* <BaiTapTruyenFunction /> */}
+    <BaiTapGioHang />
     </>
   );
 }
